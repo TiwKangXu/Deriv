@@ -1,0 +1,34 @@
+from enum import Enum
+
+
+class PipelineStage(str, Enum):
+
+    INIT = "INIT"
+
+    INPUTS_LOADED = (
+        "INPUTS_LOADED"
+    )
+
+    TICKETS_NORMALIZED = (
+        "TICKETS_NORMALIZED"
+    )
+
+    TRIAGE_PREDICTED = (
+        "TRIAGE_PREDICTED"
+    )
+
+    HUMAN_REVIEW_COMPLETE = (
+        "HUMAN_REVIEW_COMPLETE"
+    )
+
+    FINAL_QUEUE_GENERATED = (
+        "FINAL_QUEUE_GENERATED"
+    )
+
+    VALIDATION_COMPLETE = (
+        "VALIDATION_COMPLETE"
+    )
+
+    RESULTS_FINALISED = (
+        "RESULTS_FINALISED"
+    )

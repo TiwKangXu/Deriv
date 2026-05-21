@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "other",
+    "priority": "normal",
+    "reason": "Malformed or missing prediction.",
+    "suggested_reply": "Thank you for contacting support. Your issue has been routed for manual review.",
+    "route_to": "manual_review_queue",
+    "confidence": 0.0
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "other",
+    "priority": "normal",
+    "reason": "Malformed or missing prediction.",
+    "suggested_reply": "Thank you for contacting support. Your issue has been routed for manual review.",
+    "route_to": "manual_review_queue",
+    "confidence": 0.0
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "other",
+    "priority": "normal",
+    "reason": "Malformed or missing prediction.",
+    "suggested_reply": "Thank you for contacting support. Your issue has been routed for manual review.",
+    "route_to": "manual_review_queue",
+    "confidence": 0.0
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "other",
+    "priority": "normal",
+    "reason": "Malformed or missing prediction.",
+    "suggested_reply": "Thank you for contacting support. Your issue has been routed for manual review.",
+    "route_to": "manual_review_queue",
+    "confidence": 0.0
+  }
+]
