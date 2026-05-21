@@ -29,7 +29,7 @@
   {
     "ticket_id": "T-1004",
     "category": "bug_report",
-    "priority": "high",
+    "priority": "urgent",
     "reason": "Customer reports repeated mobile app crashes when accessing the portfolio tab despite updating the app.",
     "suggested_reply": "Thank you for reporting this issue. We understand the app crashes whenever you open the portfolio tab, even after updating to the latest version. Our technical team will investigate the problem and work on a fix.",
     "route_to": "technical_queue",
