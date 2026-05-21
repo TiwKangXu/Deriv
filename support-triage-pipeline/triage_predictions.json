@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "high",
+    "reason": "Customer reports a duplicate charge for a single deposit transaction and requests reversal of the extra charge.",
+    "suggested_reply": "Thank you for contacting us. We are reviewing the duplicate charge on your deposit and will investigate the transaction with urgency. If an extra charge is confirmed, we will guide you on the reversal process as soon as possible.",
+    "route_to": "payments_queue",
+    "confidence": 0.97
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "reason": "Customer cannot log in after resetting password and explicitly states urgent need for access before market open.",
+    "suggested_reply": "Thank you for reaching out. We understand you are unable to access your account after resetting your password. Our team is prioritizing this issue and will assist you in restoring access as quickly as possible.",
+    "route_to": "trust_and_access_queue",
+    "confidence": 0.99
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "low",
+    "reason": "Customer is asking for guidance on exporting transaction history as a CSV file.",
+    "suggested_reply": "Thank you for your question. You can usually export your transaction history from the account or reports section of the platform. Please navigate to your transaction history page and look for the CSV export or download option.",
+    "route_to": "general_support_queue",
+    "confidence": 0.96
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "high",
+    "reason": "Customer reports repeated mobile app crashes when accessing the portfolio tab despite updating the app.",
+    "suggested_reply": "Thank you for reporting this issue. We understand the app crashes whenever you open the portfolio tab, even after updating to the latest version. Our technical team will investigate the problem and work on a fix.",
+    "route_to": "technical_queue",
+    "confidence": 0.95
+  }
+]
